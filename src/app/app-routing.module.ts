@@ -6,14 +6,14 @@ import { PostsComponent } from './modules/posts/posts.component';
 
 
 const routes: Routes = [{
-  path:'',
+  path: '',
   component: DefaultComponent,
   children: [{
     path: '',
-    component: DashboardComponent,
-  },
-  { path: 'posts',
-    component: PostsComponent,
+    component: DashboardComponent
+  }, {
+    path: 'posts',
+    component: PostsComponent
   }]
 }];
 
